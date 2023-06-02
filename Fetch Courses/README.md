@@ -1,0 +1,2 @@
+This project is made to display courses offered by Coding Ninjas fetching data from the Courses api - https://api.codingninjas.com/api/v3/courses
+Project is made using HTML, CSS ,JQUERY, JAVASCRIPT using the AJAX functionality
