@@ -37,6 +37,7 @@ $(document).ready(function()
                           window.alert(`Following sol does not have ${pageNumber} pages.Please enter a appropriate value`);
                           return;
                       }
+                      ImageDiv.empty();
                       for(let pictures of data.photos)
                       {
                           let newImage = `<img src="${pictures.img_src}" id="imageID" >`

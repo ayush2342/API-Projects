@@ -35,6 +35,7 @@
                             window.alert("Images not yet uploaded by NASA for the selected Date. Please select any previous dates");
                             return;
                         }
+                        ImageDiv.empty();
                         for(let pictures of data.photos)
                         {
                             let newImage = `<img src="${pictures.img_src}" id="imageID" >`
